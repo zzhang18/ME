@@ -11,14 +11,14 @@ categories: jekyll update
 
 # 数据库设计
 ## 分栏式
-product_en
-product zh
+- product_en
+- product zh
 ## 分表式
-en.js
-zh.js
+- en.js
+- zh.js
 ## 翻译表式
-zh - product 
-en - product
+- zh - product 
+- en - product
 ## 独立翻译表文件
 
 
