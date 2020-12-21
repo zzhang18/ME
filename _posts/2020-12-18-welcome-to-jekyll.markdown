@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! (Gen)"
 date:   2020-12-18 17:00:32 +0800
 categories: jekyll update
 ---
@@ -18,8 +18,27 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+## Jekeyll Website setup:
+
+1. Follow [Jekyll docs][jekyll-docs] to create blog website
+2. Follow the [Github Page Guide][GitHub Pages site with Jekyll]
+3. Upated url and baseUrl in _config.yml 
+4. Publish
+
+{% highlight cpp %}
+Jekyll new yourProject
+cd yourProject  
+bundle exec Jekyll serve
+{% endhighlight %}
+{% highlight yml %}
+baseurl: "/ME" # the subpath of your site, e.g. /blog
+url: "http://zzhang18.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+{% endhighlight %}
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+[GitHub Pages site with Jekyll]:https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
