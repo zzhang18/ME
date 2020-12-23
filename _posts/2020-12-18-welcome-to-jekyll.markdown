@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "运用Jekyll自动生成博客"
 date:   2020-12-18 17:00:32 +0800
 categories: jekyll update
 ---
