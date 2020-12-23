@@ -16,9 +16,7 @@
 title: My EdutainmentShip v. 1.0
 email: zzhan18@syr.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is the website for displaying blog for various repos and notes.
 baseurl: "/ME" # the subpath of your site, e.g. /blog
 url: "http://zzhang18.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -31,7 +29,7 @@ theme: minima
 minima:
   skin: dark
   date_format: "%b %-d, %Y"
-  
+
 plugins:
   - jekyll-feed
 
@@ -46,3 +44,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+footer-links:
+  github: zzhang18
