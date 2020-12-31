@@ -1,8 +1,10 @@
 ---
-layout: post
 title: 初见Lucky Sheet
-date: 2020-12-24 13:20:00
-categories: jekyll update
+date: 2020-12-24 13:20:00 Z
+categories:
+- jekyll
+- update
+layout: post
 ---
 
 # 简介

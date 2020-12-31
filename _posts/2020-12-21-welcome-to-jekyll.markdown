@@ -1,8 +1,10 @@
 ---
+title: 多语言数据库设计模式
+date: 2020-12-21 03:20:32 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "多语言数据库设计模式"
-date:   2020-12-21 11:20:32 +0800
-categories: jekyll update
 ---
 
 # 定义
