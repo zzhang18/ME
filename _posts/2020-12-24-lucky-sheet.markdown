@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "初见Lucky Sheet"
+title:  "初见Luckysheet"
 date:   2020-12-24 21:20:32 +0800
 categories: jekyll update
 ---
