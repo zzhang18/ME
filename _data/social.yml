@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto:zzhan18@syr.edu
+  icon: fas fa-envelope
+# - title: Twitter
+#   url: https://twitter.com/sziv2p
+#   icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/zzhang18
+  icon: fab fa-github
