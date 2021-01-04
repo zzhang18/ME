@@ -3,8 +3,10 @@ title: 多语言数据库设计模式
 date: 2020-12-21 03:20:32 Z
 categories:
 - jekyll
-- update
 layout: post
+tag: 
+- i18n
+- idea
 ---
 
 # 定义
