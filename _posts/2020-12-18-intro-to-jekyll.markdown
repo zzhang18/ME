@@ -51,4 +51,4 @@ url: "http://zzhang18.github.io" # the base hostname & protocol for your site, e
 - [jekyll-docs](https://jekyllrb.com/docs/home)
 - [jekyll-gh](https://github.com/jekyll/jekyll)
 - [GitHub Pages site with Jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
-- [Jekyll - Static Site Generator | Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+- [Jekyll - Static Site Generator - Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
