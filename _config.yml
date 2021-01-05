@@ -18,3 +18,12 @@ plugins:
 - jekyll-feed
 - jekyll-remote-theme
 remote_theme: sziv2p/jekyll-theme-scaffold
+
+
+defaults:
+  - 
+    scopes:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
