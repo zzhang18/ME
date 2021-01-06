@@ -5,5 +5,5 @@ permalink: "/bloggers/"
 ---
 
 {% for blog in site.data.blogList %}
-  {{ blog.name }}: {{ blog.url }}
+  {{ blog.username }}: {{ blog.url }}
 {% endfor %}
