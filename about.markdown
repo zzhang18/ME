@@ -14,3 +14,9 @@ You can find the source code for Jekyll at GitHub:
 
 ## Customization
 - Base theme: {{ site.remote_theme }}
+- Configurable
+  - Disqus
+
+## Definition
+
+## Google Analytics
