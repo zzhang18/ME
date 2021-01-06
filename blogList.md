@@ -1,7 +1,7 @@
 ---
 title: "Blog list"
 layout: page
-permalink: "/blogs/"
+permalink: "/bloggers/"
 ---
 
 {% for blog in site.data.blogList %}
