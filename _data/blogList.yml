@@ -1,0 +1,4 @@
+- name: "name 1"
+  url: "url 1"
+- name: "name 2"
+  url: "url 2"
