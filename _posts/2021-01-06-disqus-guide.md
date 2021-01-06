@@ -4,7 +4,7 @@ layout: post
 ---
 
 # Disqus setup
-- Register
-- create site
+- Register an account at [Disqus](https://disqus.com/)
+- create a site
 - Install and config
 - Add trusted  domain
