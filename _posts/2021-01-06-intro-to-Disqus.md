@@ -3,10 +3,8 @@ categories: learning
 layout: post
 ---
 
-# Template blog
-
 # Disqus setup
-- register
+- Register
 - create site
-- install and config
-- add trusted  domain
+- Install and config
+- Add trusted  domain
