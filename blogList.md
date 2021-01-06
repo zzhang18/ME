@@ -1,9 +1,6 @@
 ---
 title: "Blog list"
-layout: page
+layout: blogger
 permalink: "/bloggers/"
 ---
 
-{% for blog in site.data.blogList %}
-  {{ blog.username }}: {{ blog.url }}
-{% endfor %}

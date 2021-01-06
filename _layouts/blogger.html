@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+<table>  
+  <tr>
+    <th>Username</th>
+    <th>Url</th>
+    <th>Posts</th>
+  </tr>
+  {% for blog in site.data.blogList %}
+    <tr>
+      <th>{{ blog.username }}</th>
+      <th><a href="{{ blog.url }}">{{ blog.url }}</a></th>
+      <th></th>
+    </tr>
+  {% endfor %}  
+</table>
+<script>
+  var
+
+</script>
