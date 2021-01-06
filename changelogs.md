@@ -1,6 +1,6 @@
 ---
 title: Changelog
 permalink: "/changelog/"
-layout: changelog
+layout: changelogs
 ---
 
