@@ -10,9 +10,9 @@ layout: page
   </tr>
   {% for blog in site.data.blogList %}
     <tr>
-      <th>{{ blog.username }}</th>
-      <th><a href="{{ blog.url }}">{{ blog.url }}</a></th>
-      <th></th>
+      <td>{{ blog.username }}</th>
+      <td><a href="{{ blog.url }}">{{ blog.url }}</a></th>
+      <td></th>
     </tr>
   {% endfor %}  
 </table>
