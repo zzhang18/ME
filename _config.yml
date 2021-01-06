@@ -19,7 +19,7 @@ plugins:
 - jekyll-remote-theme
 remote_theme: sziv2p/jekyll-theme-scaffold
 
-disqus: test-6968
+disqus: my-edutainmentship
 
 defaults:
   - 
