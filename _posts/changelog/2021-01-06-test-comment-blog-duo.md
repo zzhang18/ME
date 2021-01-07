@@ -1,4 +1,0 @@
----
-categories: learning
-layout: post
----
