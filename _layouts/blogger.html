@@ -1,0 +1,125 @@
+---
+layout: page
+---
+
+<!-- <table>  
+  <tr>
+    <th>Username</th>
+    <th>Url</th>
+    <th>Posts</th>
+  </tr>
+  {% for blog in site.data.blogList %}
+    <tr>
+      <td>{{ blog.username }}</td>
+      <td><a href="{{ blog.url }}">{{ blog.url }}</a></td>
+      <td><p id="issueNum" value="loading"></p><input type="number"  id="issueNum"  value="2000" /></td>
+    </tr>
+  {% endfor %}  
+</table> -->
+<table>  
+  <tr>
+    <th>Index</th>
+    <th>Username</th>
+    <th>Url</th>
+    <th>Posts</th>
+  </tr>
+  {% for blog in site.data.blogList %}
+    <tr id = {{ forloop.index }} value = {{ blog.username }} >
+      <td>{{ forloop.index }}</td>
+      <td>{{ blog.username }}</td>
+      <!-- <td><a href="{{ blog.url }}">{{ blog.url }}</a></td> -->
+      <td></td>
+    </tr>
+  {% endfor %}
+</table>
+
+<!-- <div id="myData"></div> -->
+<div id="myDynamicTable" ></div>
+<script>
+
+  var myTableDiv = document.getElementById("myDynamicTable");
+
+  //Alert the value of each of them
+  for(var i = 0; i < myTableDiv.length; i++){
+      alert(myTableDiv[i].value);
+      console.log('test',myTableDiv[i].value);
+  }
+
+
+  // var myTableDiv = document.getElementById("myDynamicTable");
+
+  // var table = document.createElement('TABLE');
+  // table.border = '1';
+
+  // var tableBody = document.createElement('TBODY');
+  // table.appendChild(tableBody);
+
+  // for (var i = 0; i < 3; i++) {
+  //   var tr = document.createElement('TR');
+  //   tableBody.appendChild(tr);
+
+    
+  //   var td = document.createElement('TD');
+  //   td.width = '75';
+  //   value = "zzhang18";
+  //   td.appendChild(document.createTextNode(value));
+  //   tr.appendChild(td);
+
+  //   // var td = document.createElement('TD');
+  //   // td.width = '75';
+  //   // value = 1;
+  //   // td.appendChild(document.createTextNode(value));
+  //   // tr.appendChild(td);
+  // }
+  // myTableDiv.appendChild(table);
+
+
+
+  // fetch('https://api.github.com/repos/zzhang18/me/issues')
+  //     .then(function (response) {
+  //         return response.json();
+  //     })
+  //     .then(function (data) {
+  //         appendData(data);
+  //     })
+  //     .catch(function (err) {
+  //         console.log('error: ' + err);
+  //     });
+  // function appendData(data) {
+  //     var mainContainer = document.getElementById("myData");
+      
+  //     var row = document.createElement("tr");
+  //       for (var i = 0; i < 2; i++) {
+  //         // create element <td> and text node 
+  //         //Make text node the contents of <td> element
+  //         // put <td> at end of the table row
+  //         var cell = document.createElement("td");
+  //         var cellText = document.createTextNode("cell is row " + j + ", column " + i);
+
+  //         cell.appendChild(cellText);
+  //         row.appendChild(cell);
+  //       }
+
+  //     //row added to end of table body
+  //     mainContainer.appendChild(row);
+      
+  // }
+</script>
+<!-- <script>
+  document.getElementById("issueNum").value = "4";
+  $('#issueNum').val(5);
+  // document.getElementById("issueNum").value= new Number(request.responseText);
+  // const http = new XMLHttpRequest()
+
+  // http.open("GET", "https://api.github.com/repos/zzhang18/me/issues")
+  // http.send()
+
+  // http.onload = () => console.log(http.responseText)
+
+  $.get("https://api.github.com/repos/zzhang18/me/issues", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+    console.log('data',data);
+    // $('#issueNum').val(data);
+  });
+
+</script> -->

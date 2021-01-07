@@ -1,0 +1,31 @@
+---
+title: My EdutainmentShip
+timezone: Asia/Shanghai
+date_format: "%A %x %r %Z"
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: A home for learning notes
+email: zzhan18@syr.edu
+description: This is the website for displaying blog for various repos and notes.
+baseurl: "/ME"
+url: ''
+github_username: zzhan18
+plugins:
+- jekyll-feed
+- jekyll-remote-theme
+remote_theme: sziv2p/jekyll-theme-scaffold
+
+disqus: my-edutainmentship
+
+defaults:
+  - 
+    scopes:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
